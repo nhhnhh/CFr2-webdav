@@ -24,6 +24,7 @@ jobs:
               wrangler.toml.template > wrangler.toml
           cat wrangler.toml
 
+
       - name: Build & Deploy Worker
         uses: cloudflare/wrangler-action@v3
         with:
